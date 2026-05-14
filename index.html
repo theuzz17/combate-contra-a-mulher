@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede de Proteção - Combate à Violência contra a Mulher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="navbar-logo">
+                <svg class="logo-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+                <span class="logo-text">Rede de Proteção</span>
+            </div>
+            <div class="navbar-links">
+                <button class="nav-link active" data-section="inicio">Início</button>
+                <button class="nav-link" data-section="leis">Leis</button>
+                <button class="nav-link" data-section="ajuda">Ajuda</button>
+                <button class="nav-link" data-section="comeca">Onde Começa</button>
+                <button class="nav-link" data-section="apoio">Rede de Apoio</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-background">
+            <div class="gradient-blob blob-1"></div>
+            <div class="gradient-blob blob-2"></div>
+            <div class="gradient-blob blob-3"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Rede de Proteção</h1>
+                <p class="hero-subtitle">Combate à Violência contra a Mulher</p>
+                <p class="hero-description">
+                    Juntas somos mais fortes. Encontre informações, apoio e recursos para proteger seus direitos.
+                </p>
+                <button class="cta-button" onclick="rolarParaSecao('leis')">
+                    Entrar
+                    <svg class="button-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="hero-image">
+                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663183326074/RNsTmvd9HTRTfiFxxeorjf/maria-da-penha-hero-bLCpLsnCMSADU5YiKJtWm2.webp" alt="Maria da Penha" class="hero-img">
+                <div class="image-overlay"></div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="scroll-dot"></div>
+        </div>
+    </section>
+
+    <section id="leis" class="content-section leis-section">
+        <div class="section-background">
+            <div class="gradient-accent accent-1"></div>
+        </div>
+
+        <div class="section-content">
+            <div class="section-header">
+                <svg class="section-icon" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+                <h2 class="section-title">Leis de Proteção</h2>
+                <p class="section-subtitle">Conheça seus direitos e a legislação que protege você</p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <span class="icon-number">1</span>
+                    </div>
+                    <h3 class="card-title">Lei Maria da Penha</h3>
+                    <p class="card-description">
+                        Lei nº 11.340/2006 que cria mecanismos para coibir e prevenir a violência doméstica e familiar contra a mulher.
+                    </p>
+                    <a href="#" class="card-link">Saiba mais →</a>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-icon">
+                        <span class="icon-number">2</span>
+                    </div>
+                    <h3 class="card-title">Medidas Protetivas</h3>
+                    <p class="card-description">
+                        Conheça as medidas de proteção de urgência que podem ser solicitadas à justiça para sua segurança.
+                    </p>
+                    <a href="#" class="card-link">Saiba mais →</a>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-icon">
+                        <span class="icon-number">3</span>
+                    </div>
+                    <h3 class="card-title">Direitos Garantidos</h3>
+                    <p class="card-description">
+                        Seus direitos incluem assistência jurídica, atendimento policial especializado e acesso a serviços sociais.
+                    </p>
+                    <a href="#" class="card-link">Saiba mais →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ajuda" class="content-section ajuda-section">
+        <div class="section-background">
+            <div class="gradient-accent accent-2"></div>
+        </div>
+
+        <div class="section-content">
+            <div class="section-header">
+                <svg class="section-icon" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <h2 class="section-title">Onde Buscar Ajuda</h2>
+                <p class="section-subtitle">Recursos e contatos para você não estar sozinha</p>
+            </div>
+
+            <div class="help-grid">
+                <div class="help-card">
+                    <div class="help-icon">
+                        <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="help-title">Delegacia Especializada</h3>
+                    <p class="help-text">
+                        Procure uma Delegacia de Atendimento Especializado à Mulher (DEAM) para registrar boletim de ocorrência.
+                    </p>
+                    <div class="help-contact">
+                        <strong>Ligue:</strong> 190 (Polícia Militar)
+                    </div>
+                </div>
+
+                <div class="help-card">
+                    <div class="help-icon">
+                        <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="help-title">Central de Atendimento</h3>
+                    <p class="help-text">
+                        Disque 180 para denunciar violência contra a mulher. Serviço 24h, confidencial e gratuito.
+                    </p>
+                    <div class="help-contact">
+                        <strong>Ligue:</strong> 180 (Disque Denúncia)
+                    </div>
+                </div>
+
+                <div class="help-card">
+                    <div class="help-icon">
+                        <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3 class="help-title">Centros de Referência</h3>
+                    <p class="help-text">
+                        Busque atendimento psicológico, jurídico e social em centros de referência especializados.
+                    </p>
+                    <div class="help-contact">
+                        <strong>Procure:</strong> CRAM ou CREAS
+                    </div>
+                </div>
+
+                <div class="help-card">
+                    <div class="help-icon">
+                        <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 16v-4"></path>
+                            <path d="M12 8h.01"></path>
+                        </svg>
+                    </div>
+                    <h3 class="help-title">Casas Abrigo</h3>
+                    <p class="help-text">
+                        Acolhimento seguro para mulheres em situação de risco. Sigilo garantido e atendimento integral.
+                    </p>
+                    <div class="help-contact">
+                        <strong>Contato:</strong> Consulte sua prefeitura
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comeca" class="content-section comeca-section">
+        <div class="section-background">
+            <div class="gradient-accent accent-3"></div>
+        </div>
+
+        <div class="section-content">
+            <div class="section-header">
+                <svg class="section-icon" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 16v-4"></path>
+                    <path d="M12 8h.01"></path>
+                </svg>
+                <h2 class="section-title">Onde Tudo Começa</h2>
+                <p class="section-subtitle">Reconheça os sinais e saiba como agir</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Reconheça a Violência</h3>
+                        <p class="timeline-text">
+                            Violência não é só física. Inclui abuso emocional, psicológico, sexual, financeiro e patrimonial.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Procure Ajuda</h3>
+                        <p class="timeline-text">
+                            Fale com alguém de confiança: amiga, familiar, profissional ou ligue para os serviços especializados.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Registre a Ocorrência</h3>
+                        <p class="timeline-text">
+                            Procure a delegacia especializada e faça o boletim de ocorrência. Você tem direito a atendimento humanizado.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Solicite Medidas Protetivas</h3>
+                        <p class="timeline-text">
+                            Você pode pedir medidas de proteção de urgência ao juiz para garantir sua segurança.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">5</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Acompanhamento Contínuo</h3>
+                        <p class="timeline-text">
+                            Receba apoio psicológico, jurídico e social durante todo o processo de recuperação.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="apoio" class="content-section apoio-section">
+        <div class="section-background">
+            <div class="gradient-accent accent-4"></div>
+        </div>
+
+        <div class="section-content">
+            <div class="section-header">
+                <svg class="section-icon" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+                <h2 class="section-title">Rede de Apoio</h2>
+                <p class="section-subtitle">Você não está sozinha. Encontre apoio emocional e prático</p>
+            </div>
+
+            <div class="support-image">
+                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663183326074/RNsTmvd9HTRTfiFxxeorjf/women-support-network-5miY8HjLoygyeQFkBQ8BRF.webp" alt="Rede de Apoio" class="support-img">
+            </div>
+
+            <div class="support-features">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Apoio Emocional</h3>
+                    <p class="feature-text">
+                        Grupos de apoio, psicoterapia e orientação para processar o trauma e reconstruir sua vida.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Apoio Jurídico</h3>
+                    <p class="feature-text">
+                        Assistência legal gratuita para processos de divórcio, guarda de filhos e medidas protetivas.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Rede Comunitária</h3>
+                    <p class="feature-text">
+                        Conexão com outras mulheres, grupos de empoderamento e oportunidades de reinserção social.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 16v-4"></path>
+                            <path d="M12 8h.01"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Informação e Educação</h3>
+                    <p class="feature-text">
+                        Acesso a materiais educativos, workshops e capacitações para fortalecer sua autonomia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4 class="footer-title">Rede de Proteção</h4>
+                <p class="footer-text">
+                    Combatendo a violência contra a mulher através de informação, apoio e ação.
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Contatos Importantes</h4>
+                <ul class="footer-links">
+                    <li><strong>Disque 180:</strong> Denúncia de violência (24h)</li>
+                    <li><strong>190:</strong> Polícia Militar</li>
+                    <li><strong>192:</strong> Ambulância</li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/sostechporelas/" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p> JOAO DA MATTA CAVALCANTI DE ALBUQUERQUE</p>
+            <p>&copy; 2026 Rede de Proteção. Todos os direitos reservados.</p>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
